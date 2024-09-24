@@ -22,9 +22,12 @@ $Jobs= $Statement->fetchAll(PDO::FETCH_ASSOC);
 <div class="container">
     <?php   foreach ($Jobs as $Job){ ?>
      <h1><?php echo $Job['Title'] ?></h1>
-     <p> Description: <?php echo $Job['Description'] ?></p>
-     <p>Salary: <?php echo $Job['Salary'] ?></p>
-     <p>Location: <?php echo $Job['Location'] ?></p>
+     <h5>Description: </h5>
+     <p><?php echo $Job['Description'] ?></p>
+     <h5>Salary: </h5>
+     <p><?php echo $Job['Salary'] ?></p>
+     <h5>Location: </h5>
+     <p><?php echo $Job['Location'] ?></p>
      <?php } ?>
         <div class="add">
             <form>
