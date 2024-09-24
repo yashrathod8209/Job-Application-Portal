@@ -1,0 +1,37 @@
+
+body{
+margin: 0%;
+padding: 0%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+width: 350px;
+padding: 30px;
+box-shadow: 0 2px 5px gray;
+margin-top: 75px;
+}
+
+h1,h3{
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+input[type="text"],input[type="number"]{
+width: 330px;
+padding: 10px ;
+margin-bottom: 10px ;
+}
+
+#Submit{
+width: 100%;
+background-color: yellow;
+padding: 10px 20px;
+margin-top:  10px;
+}
+
+
+

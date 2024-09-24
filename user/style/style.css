@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+    background-color: #143AA2;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+thead{
+    background-color: #c8c9e6;
+}
+
+.table{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 3%;
+    box-shadow: 0 5px 5px black;
+    background-color: #ffffff;
+    padding: 10px;
+    }
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.Applications {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #F1F1F1;
+  }
+
+  .Application {
+    width: 200px;
+    flex: 0 0 23%;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  h1{
+    text-align: center;
+  }
