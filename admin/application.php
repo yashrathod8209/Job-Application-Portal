@@ -24,10 +24,14 @@ $Applications = $statement->fetchAll(PDO::FETCH_ASSOC);
 <div class="Applications">
     <?php foreach ($Applications as $Application) { ?>
       <div class="Application">
-        <p>Name: <?php echo $Application['Applicant_Name'] ?></p>
-        <p>Email: <?php echo $Application['Email'] ?></p>
-        <p>Phone: <?php echo $Application['Phone_Number'] ?></p>
-        <p>Resume:<?php echo $Application['Resume_Link'] ?></p>
+        <h6>Name:</h6>
+        <p><?php echo $Application['Applicant_Name'] ?></p>
+        <h6>Email:</h6>
+        <p> <?php echo $Application['Email'] ?></p>
+        <h6>Phone: </h6>
+        <p><?php echo $Application['Phone_Number'] ?></p>
+        <h6>Resume:</h6>
+        <p><?php echo $Application['Resume_Link'] ?></p>
 
       </div>
     <?php } ?>

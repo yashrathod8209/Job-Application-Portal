@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS `Applications`;
-CREATE DATABASE `Applications`;
-USE `Applications`;
+DROP DATABASE IF EXISTS `Job_Applications`;
+CREATE DATABASE `Job_Applications`;
+USE `Job_Applications`;
 
 CREATE TABLE `Jobs`(
     `Id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,

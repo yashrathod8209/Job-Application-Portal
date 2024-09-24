@@ -6,7 +6,7 @@ define("BASE_URL", "/Job Application");
 
 date_default_timezone_set('Asia/Kolkata');
 
-$connection = new PDO("mysql:host=localhost;port=3306;dbname=Applications", "root", "");
+$connection = new PDO("mysql:host=localhost;port=3306;dbname=Job_Applications", "root", "");
 
 
 function pathOf($path)

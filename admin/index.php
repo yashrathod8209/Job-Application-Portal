@@ -4,9 +4,7 @@ include "../includes/init.php";
 $query="SELECT * FROM `Jobs`";
 $Statement=$connection->prepare($query);
 $row = $Statement->execute();
-
 $Jobs= $Statement->fetchAll(PDO::FETCH_ASSOC);
-
 
 ?>
 

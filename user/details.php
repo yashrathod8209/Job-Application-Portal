@@ -9,7 +9,6 @@ $params=[$Id];
 $Statement=$connection->prepare($query);
 $row = $Statement->execute($params);
 $Jobs= $Statement->fetchAll(PDO::FETCH_ASSOC);
-echo $Id;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +29,6 @@ echo $Id;
         <div class="add">
             <form>
                 <h3>Apply Now</h3>
-
                 <input type="hidden" name="Job_Id" id="Job_Id" value="<?php echo $Id ?>" required>
 
                 <label for="Name">Name</label>
